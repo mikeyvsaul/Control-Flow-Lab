@@ -17,9 +17,10 @@ a = abs(int(input('Enter the lengths of the three sides of a triangle. For side 
 b = abs(int(input('For side "b": ')))
 c = abs(int(input('For side "c": ')))
 if a == b and b == c:
-  print(f'A triangle with sides of {a}, {b} & {c} is an equalateral triangle ')
+  triangle = 'equalateral'
 elif a != b and b != c and a != c:
-  print(f'A triangle with sides of {a}, {b} & {c} is a scalene triangle ')
+  triangle = 'scalene'
 elif a == b or b == c or a == c:
-  print(f'A triangle with sides of {a}, {b} & {c} is an isosceles triangle ')
+  triangle = 'isosceles'
+print(f'A triangle with sides of {a}, {b} & {c} is a {triangle} triangle ')
   

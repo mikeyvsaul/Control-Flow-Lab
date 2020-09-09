@@ -20,42 +20,6 @@
 # After setting the likely season, you can use another if...elif...else statement to "adjust" if
 # the day number falls within a certain range.
 
-# month = input('Enter the month of the year (Jan - Dec): ')
-# if len(month) > 3:
-#   month = input('Please enter the abbreviation of the month (Jan - Dec): ')
-# day = int(input('Enter the day of the month: '))
-# if day < 0 or day > 31:
-#   day = int(input('Please enter an actual date: '))
-# if month in ('Dec') and day >= 21:
-#   season = 'Winter'
-# elif month in ('Jan', 'Feb'):
-#   season = 'Winter'
-# elif month in ('Mar') and day <= 19:
-#   season = 'Winter'
-# elif month in ('Mar') and day >= 20:
-#   season = 'Spring'
-# elif month in ('Apr', 'May'):
-#   season = 'Spring'
-# elif month in ('Jun') and day <= 20:
-#   season = 'Spring'
-# elif month in ('Jun') and day >= 21:
-#   season = 'Summer'
-# elif month in ('Jul', 'Aug'):
-#   season = 'Summer'
-# elif month in ('Sep') and day <= 21:
-#   season = 'Summer'
-# elif month in ('Sep') and day >= 22:
-#   season = 'Fall'
-# elif month in ('Oct', 'Nov'):
-#   season = 'Fall'
-# elif month in ('Dec') and day <= 20:
-#   season = 'Fall'
-# else: 
-#   print(f'{month} does not seem to exist')
-# print(f'{month} {day} is in {season}')
-
-
-
 month = input('Enter the month of the year (Jan - Dec): ')
 if len(month) > 3:
   month = input('Please enter the abbreviation of the month (Jan - Dec): ')
