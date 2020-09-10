@@ -36,7 +36,7 @@ elif month in ('Sep') and day >= 22 or month in ('Oct', 'Nov') or month in ('Dec
   season = 'Fall'
 else: 
   print(f'{month} does not seem to exist')
-print(f'{month} {day} is in {season}')
+print(f'{month} {day} is in the {season}')
 
 
 
